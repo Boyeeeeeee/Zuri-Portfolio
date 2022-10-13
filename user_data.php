@@ -14,7 +14,11 @@
 	$birth = $_POST['birthday'];
 	$gender  = $_POST['gender'];
 	$country = $_POST['country'];
+	print_r($name);
 	print_r($email);
+	print_r($birth);
+	print_r($gender);
+	print_r($country);
 
 
 	$filename = "userdata.csv";
